@@ -56,6 +56,7 @@ Monitored using Prometheus & Grafana
         │ LoadBalancer   │  <------------------->│   Prometheus +      │
         │ (ELB - Public) │                       │      Grafana         │
         └───────────────┘                       └─────────────────────┘
+        
 
 🧰 3. Tools & Technologies Used
 Cloud Platforms
@@ -143,18 +144,7 @@ Namespace
 HPA
 
 📁 9. Project Structure
-real-timeops/
-├─ app.py
-├─ requirements.txt
-├─ Dockerfile
-├─ README.md
-├─ k8s/
-│  └─ deployment.yaml
-├─ terraform/
-│  └─ main.tf
-└─ ansible/
-   ├─ hosts
-   └─ playbook.yml
+<img width="223" height="310" alt="image" src="https://github.com/user-attachments/assets/07f68874-e71e-4dec-a1f1-67d48de5f5fc" />
 
 🐞 11. Common Errors & Fixes
 ❌ EC2 has no Public IP → Cannot SSH
